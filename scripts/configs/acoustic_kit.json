@@ -1,0 +1,457 @@
+{
+  "name": "acoustic",
+  "sample_rate": 44100,
+  "bit_depth": 16,
+  "output_root": "output/sfz/acoustic_kit/samples",
+  "default_velocities": [30, 60, 90, 110, 127],
+  "default_round_robins": 3,
+  "instruments": [
+    {
+      "id": "kick_acoustic",
+      "display_name": "Acoustic Bass Drum",
+      "midi_note": 35,
+      "recipe": "acoustic_kick",
+      "duration_ms": 900,
+      "round_robins": 5,
+      "params": {
+        "fundamental": 52.0,
+        "pitch_start_ratio": 2.6,
+        "sub_freq": 36.0
+      }
+    },
+    {
+      "id": "kick_tight",
+      "display_name": "Bass Drum 1",
+      "midi_note": 36,
+      "recipe": "acoustic_kick_tight",
+      "duration_ms": 800,
+      "round_robins": 5,
+      "params": {
+        "fundamental": 48.0,
+        "sub_freq": 34.0
+      }
+    },
+    {
+      "id": "side_stick",
+      "display_name": "Side Stick",
+      "midi_note": 37,
+      "recipe": "acoustic_side_stick",
+      "duration_ms": 300
+    },
+    {
+      "id": "snare_acoustic",
+      "display_name": "Acoustic Snare",
+      "midi_note": 38,
+      "recipe": "acoustic_snare",
+      "duration_ms": 700,
+      "round_robins": 7,
+      "params": {
+        "fundamental": 185.0,
+        "wire_level": 0.55
+      }
+    },
+    {
+      "id": "hand_clap",
+      "display_name": "Hand Clap",
+      "midi_note": 39,
+      "recipe": "acoustic_clap",
+      "duration_ms": 600,
+      "round_robins": 5
+    },
+    {
+      "id": "snare_bright",
+      "display_name": "Electric Snare",
+      "midi_note": 40,
+      "recipe": "acoustic_snare_bright",
+      "duration_ms": 700,
+      "round_robins": 7,
+      "params": {
+        "fundamental": 210.0
+      }
+    },
+    {
+      "id": "floor_tom_low",
+      "display_name": "Low Floor Tom",
+      "midi_note": 41,
+      "recipe": "acoustic_tom",
+      "duration_ms": 850,
+      "round_robins": 5,
+      "params": {
+        "fundamental": 82.0,
+        "pitch_sweep_ratio": 1.25
+      }
+    },
+    {
+      "id": "hihat_closed",
+      "display_name": "Closed Hi-Hat",
+      "midi_note": 42,
+      "recipe": "acoustic_hat_closed",
+      "duration_ms": 300,
+      "round_robins": 7
+    },
+    {
+      "id": "floor_tom_high",
+      "display_name": "High Floor Tom",
+      "midi_note": 43,
+      "recipe": "acoustic_tom",
+      "duration_ms": 800,
+      "round_robins": 5,
+      "params": {
+        "fundamental": 100.0,
+        "pitch_sweep_ratio": 1.22
+      }
+    },
+    {
+      "id": "hihat_pedal",
+      "display_name": "Pedal Hi-Hat",
+      "midi_note": 44,
+      "recipe": "acoustic_hat_pedal",
+      "duration_ms": 350,
+      "round_robins": 5
+    },
+    {
+      "id": "tom_low",
+      "display_name": "Low Tom",
+      "midi_note": 45,
+      "recipe": "acoustic_tom",
+      "duration_ms": 750,
+      "round_robins": 5,
+      "params": {
+        "fundamental": 120.0,
+        "pitch_sweep_ratio": 1.20
+      }
+    },
+    {
+      "id": "hihat_open",
+      "display_name": "Open Hi-Hat",
+      "midi_note": 46,
+      "recipe": "acoustic_hat_open",
+      "duration_ms": 1400,
+      "round_robins": 7
+    },
+    {
+      "id": "tom_low_mid",
+      "display_name": "Low-Mid Tom",
+      "midi_note": 47,
+      "recipe": "acoustic_tom",
+      "duration_ms": 700,
+      "round_robins": 5,
+      "params": {
+        "fundamental": 145.0,
+        "pitch_sweep_ratio": 1.18
+      }
+    },
+    {
+      "id": "tom_mid",
+      "display_name": "Hi-Mid Tom",
+      "midi_note": 48,
+      "recipe": "acoustic_tom",
+      "duration_ms": 660,
+      "round_robins": 5,
+      "params": {
+        "fundamental": 170.0,
+        "pitch_sweep_ratio": 1.15
+      }
+    },
+    {
+      "id": "crash_1",
+      "display_name": "Crash Cymbal 1",
+      "midi_note": 49,
+      "recipe": "acoustic_crash",
+      "duration_ms": 2600,
+      "round_robins": 5
+    },
+    {
+      "id": "tom_high",
+      "display_name": "High Tom",
+      "midi_note": 50,
+      "recipe": "acoustic_tom",
+      "duration_ms": 600,
+      "round_robins": 5,
+      "params": {
+        "fundamental": 200.0,
+        "pitch_sweep_ratio": 1.12
+      }
+    },
+    {
+      "id": "ride_1",
+      "display_name": "Ride Cymbal 1",
+      "midi_note": 51,
+      "recipe": "acoustic_ride",
+      "duration_ms": 3000,
+      "round_robins": 5
+    },
+    {
+      "id": "china_cymbal",
+      "display_name": "Chinese Cymbal",
+      "midi_note": 52,
+      "recipe": "acoustic_china",
+      "duration_ms": 2400,
+      "round_robins": 3
+    },
+    {
+      "id": "ride_bell",
+      "display_name": "Ride Bell",
+      "midi_note": 53,
+      "recipe": "acoustic_ride_bell",
+      "duration_ms": 2200,
+      "round_robins": 5
+    },
+    {
+      "id": "tambourine",
+      "display_name": "Tambourine",
+      "midi_note": 54,
+      "recipe": "acoustic_tambourine",
+      "duration_ms": 1200,
+      "round_robins": 3
+    },
+    {
+      "id": "splash",
+      "display_name": "Splash Cymbal",
+      "midi_note": 55,
+      "recipe": "acoustic_splash",
+      "duration_ms": 1600,
+      "round_robins": 3
+    },
+    {
+      "id": "cowbell",
+      "display_name": "Cowbell",
+      "midi_note": 56,
+      "recipe": "acoustic_cowbell",
+      "duration_ms": 700
+    },
+    {
+      "id": "crash_2",
+      "display_name": "Crash Cymbal 2",
+      "midi_note": 57,
+      "recipe": "acoustic_crash_bright",
+      "duration_ms": 2800,
+      "round_robins": 5
+    },
+    {
+      "id": "vibraslap",
+      "display_name": "Vibraslap",
+      "midi_note": 58,
+      "recipe": "acoustic_vibraslap",
+      "duration_ms": 2200
+    },
+    {
+      "id": "ride_2",
+      "display_name": "Ride Cymbal 2",
+      "midi_note": 59,
+      "recipe": "acoustic_ride_bright",
+      "duration_ms": 2800,
+      "round_robins": 5
+    },
+    {
+      "id": "bongo_high",
+      "display_name": "Hi Bongo",
+      "midi_note": 60,
+      "recipe": "acoustic_bongo_high",
+      "duration_ms": 700,
+      "round_robins": 3
+    },
+    {
+      "id": "bongo_low",
+      "display_name": "Low Bongo",
+      "midi_note": 61,
+      "recipe": "acoustic_bongo_low",
+      "duration_ms": 700,
+      "round_robins": 3
+    },
+    {
+      "id": "conga_high_mute",
+      "display_name": "Mute Hi Conga",
+      "midi_note": 62,
+      "recipe": "acoustic_conga_high_mute",
+      "duration_ms": 700,
+      "round_robins": 3
+    },
+    {
+      "id": "conga_high_open",
+      "display_name": "Open Hi Conga",
+      "midi_note": 63,
+      "recipe": "acoustic_conga_high_open",
+      "duration_ms": 850,
+      "round_robins": 3
+    },
+    {
+      "id": "conga_low",
+      "display_name": "Low Conga",
+      "midi_note": 64,
+      "recipe": "acoustic_conga_low",
+      "duration_ms": 900,
+      "round_robins": 3
+    },
+    {
+      "id": "timbale_high",
+      "display_name": "High Timbale",
+      "midi_note": 65,
+      "recipe": "acoustic_timbale_high",
+      "duration_ms": 600,
+      "round_robins": 3
+    },
+    {
+      "id": "timbale_low",
+      "display_name": "Low Timbale",
+      "midi_note": 66,
+      "recipe": "acoustic_timbale_low",
+      "duration_ms": 600,
+      "round_robins": 3
+    },
+    {
+      "id": "agogo_high",
+      "display_name": "High Agogo",
+      "midi_note": 67,
+      "recipe": "acoustic_agogo_high",
+      "duration_ms": 600
+    },
+    {
+      "id": "agogo_low",
+      "display_name": "Low Agogo",
+      "midi_note": 68,
+      "recipe": "acoustic_agogo_low",
+      "duration_ms": 600
+    },
+    {
+      "id": "cabasa",
+      "display_name": "Cabasa",
+      "midi_note": 69,
+      "recipe": "acoustic_cabasa",
+      "duration_ms": 1000,
+      "round_robins": 3
+    },
+    {
+      "id": "maracas",
+      "display_name": "Maracas",
+      "midi_note": 70,
+      "recipe": "acoustic_maracas",
+      "duration_ms": 1000,
+      "round_robins": 3
+    },
+    {
+      "id": "whistle_short",
+      "display_name": "Short Whistle",
+      "midi_note": 71,
+      "recipe": "acoustic_whistle_short",
+      "duration_ms": 1100
+    },
+    {
+      "id": "whistle_long",
+      "display_name": "Long Whistle",
+      "midi_note": 72,
+      "recipe": "acoustic_whistle_long",
+      "duration_ms": 1500
+    },
+    {
+      "id": "guiro_short",
+      "display_name": "Short Guiro",
+      "midi_note": 73,
+      "recipe": "acoustic_guiro_short",
+      "duration_ms": 1000
+    },
+    {
+      "id": "guiro_long",
+      "display_name": "Long Guiro",
+      "midi_note": 74,
+      "recipe": "acoustic_guiro_long",
+      "duration_ms": 1400
+    },
+    {
+      "id": "claves",
+      "display_name": "Claves",
+      "midi_note": 75,
+      "recipe": "acoustic_claves",
+      "duration_ms": 550
+    },
+    {
+      "id": "woodblock_high",
+      "display_name": "Hi Wood Block",
+      "midi_note": 76,
+      "recipe": "acoustic_woodblock_high",
+      "duration_ms": 550
+    },
+    {
+      "id": "woodblock_low",
+      "display_name": "Low Wood Block",
+      "midi_note": 77,
+      "recipe": "acoustic_woodblock_low",
+      "duration_ms": 550
+    },
+    {
+      "id": "cuica_mute",
+      "display_name": "Mute Cuica",
+      "midi_note": 78,
+      "recipe": "acoustic_cuica_mute",
+      "duration_ms": 1100
+    },
+    {
+      "id": "cuica_open",
+      "display_name": "Open Cuica",
+      "midi_note": 79,
+      "recipe": "acoustic_cuica_open",
+      "duration_ms": 1200
+    },
+    {
+      "id": "triangle_mute",
+      "display_name": "Mute Triangle",
+      "midi_note": 80,
+      "recipe": "acoustic_triangle_mute",
+      "duration_ms": 800
+    },
+    {
+      "id": "triangle_open",
+      "display_name": "Open Triangle",
+      "midi_note": 81,
+      "recipe": "acoustic_triangle_open",
+      "duration_ms": 1600
+    },
+    {
+      "id": "shaker",
+      "display_name": "Shaker",
+      "midi_note": 82,
+      "recipe": "acoustic_shaker",
+      "duration_ms": 900,
+      "round_robins": 3
+    },
+    {
+      "id": "jingle_bell",
+      "display_name": "Jingle Bell",
+      "midi_note": 83,
+      "recipe": "acoustic_jingle_bell",
+      "duration_ms": 800,
+      "round_robins": 3
+    },
+    {
+      "id": "bell_tree",
+      "display_name": "Bell Tree",
+      "midi_note": 84,
+      "recipe": "acoustic_bell_tree",
+      "duration_ms": 2000
+    },
+    {
+      "id": "castanets",
+      "display_name": "Castanets",
+      "midi_note": 85,
+      "recipe": "acoustic_castanets",
+      "duration_ms": 500,
+      "round_robins": 3
+    },
+    {
+      "id": "surdo_mute",
+      "display_name": "Mute Surdo",
+      "midi_note": 86,
+      "recipe": "acoustic_surdo_mute",
+      "duration_ms": 900,
+      "round_robins": 3
+    },
+    {
+      "id": "surdo_open",
+      "display_name": "Open Surdo",
+      "midi_note": 87,
+      "recipe": "acoustic_surdo_open",
+      "duration_ms": 1200,
+      "round_robins": 3
+    }
+  ]
+}

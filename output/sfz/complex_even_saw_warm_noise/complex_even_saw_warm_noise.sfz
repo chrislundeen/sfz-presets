@@ -1,0 +1,11 @@
+<group>
+lovel=0
+hivel=127
+<region>
+sample=samples/complex_even_saw_warm_noise_440hz_cycle.wav
+lokey=0
+hikey=127
+pitch_keycenter=69
+loop_mode=loop_continuous
+loop_start=0
+loop_end=1199
